@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="vcrpp2.jnlp">
+  <information>
+    <title>vcrpp2</title>
+    <vendor>dzmitry</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib/mysql-connector-java-5.1.47-bin.jar" size="1007505" download="eager" />
+    <jar href="vcrpp2.jar" size="18411" download="eager" />
+  </resources>
+  <application-desc main-class="vcrpp2.Vcrpp"  name="vcrpp2" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
