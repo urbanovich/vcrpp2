@@ -8,4 +8,5 @@
 ```
 cd to/files/the/project;
 docker-composer -f docker/docker-composer up -d;
+java -jar vcrpp2.jar;
 ```
